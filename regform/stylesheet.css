@@ -1,0 +1,51 @@
+
+
+.content{
+
+    
+    padding:  0px 90px 20px 100px ;
+    text-align: left;
+    background-color:silver;
+    font-size: small;
+    
+    
+}
+body{
+    display: flex;
+    gap:10px;
+    background-color: gray;
+    position: ;
+    font-size: x-small;
+   
+}
+.split{
+    font-size: x-small;
+
+}
+table, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: snow;
+  }
+
+
+
+
+
+    
+
+   
+
+
+    
+    
+
+    
+
+                           
+
+
+
+
