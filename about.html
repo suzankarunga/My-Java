@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .contact-section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    
+    .contact-info h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .contact-info p {
+      font-size: 16px;
+      color: #555;
+    }
+    
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .contact-form label {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <title>Contact Us</title>
+</head>
+<body>
+  <div class="contact-section">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us today! We'd love to hear from you and discuss how we can assist you with your projects.</p>
+      <p>Contact Information:</p>
+      <p>Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Visit Our Office:</p>
+      <p>123 Tech Street<br>Cityville, State<br>Postal Code: 12345</p>
+    </div>
+    <div class="contact-form">
+      <h2>Send us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
